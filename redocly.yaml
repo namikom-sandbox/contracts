@@ -1,0 +1,5 @@
+extends:
+  - recommended
+rules:
+  # The services have no authentication; they are reachable only inside the cluster.
+  security-defined: off

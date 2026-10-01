@@ -1,0 +1,11 @@
+{
+  "name": "@namikom-sandbox/contracts",
+  "private": true,
+  "description": "OpenAPI contracts for the shop's services",
+  "scripts": {
+    "lint": "redocly lint openapi/orders.yaml"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^2.57.0"
+  }
+}
